@@ -1,3 +1,4 @@
 Header set Access-Control-Allow-Origin "*"
 Header set Access-Control-Allow-Methods "POST, GET, OPTIONS, DELETE, PUT"
-Header set Access-Control-Max-Age "1000"
+Header set Access-Control-Allow-Headers "cache-control"
+Header set Access-Control-Max-Age "8"
