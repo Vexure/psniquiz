@@ -748,7 +748,7 @@ var loadTopData = function () {
 
 // Отправляем состояние игрока на сервер
 function sendPlayerState () {
-    var psPath = defaultHostAdress +"/pRec.php";
+    var psPath = topWindow.hostAdress +"/pRec.php";
     var XHR = new XMLHttpRequest();
     XHR.open('POST', psPath);
     XHR.setRequestHeader('Cache-Control', 'no-cache, no-store, max-age=0');
