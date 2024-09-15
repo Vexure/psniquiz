@@ -5,8 +5,8 @@ const autoUpdatingEnabled = false;
 const setDefaultPositionOnResize = true;
 
 //const defaultHostAdress = 'http://localhost:8080/pQuiz';
-//const defaultHostAdress = 'https://quiz.scuf.ru';
-const defaultHostAdress = 'http://x96101uy.beget.tech/qclp';
+const defaultHostAdress = 'https://quiz.scuf.ru';
+//const defaultHostAdress = 'http://x96101uy.beget.tech/qclp';
 
     
 var topData = {};
